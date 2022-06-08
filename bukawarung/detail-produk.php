@@ -58,7 +58,7 @@ $p = mysqli_fetch_object($produk);
                         <?php echo $p->product_description  ?>
                     </p>
                     <p>
-                        <a href="https://api.whatsapp.com/send?phone=<?= $a->admin_telp ?>&text=Hai, saya tertarik <?= $p->product_name ?> dengan produk anda" target="_blank"> <img src="img/whatsapp.png" alt="" width="50px"> <br> <b>Hubungi via Whatsapp</b></a>
+                        <a href="https://api.whatsapp.com/send?phone=<?= $a->admin_telp ?>&text=Hai, saya tertarik dengan produk anda <?= $p->product_name ?>" target="_blank"> <img src="img/whatsapp.png" alt="" width="50px"> <br> <b>Hubungi via Whatsapp</b></a>
                     </p>
                 </div>
             </div>
