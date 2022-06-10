@@ -72,7 +72,7 @@ $a = mysqli_fetch_object($kontak);
                 ?>
                         <a href="detail-produk.php?id=<?= $p['product_id'] ?>">
                             <div class="col-4">
-                                <img src="produk/<?= $p['product_image'] ?>" alt="" style="height:35vh; width:100%">
+                                <img src="produk/<?= $p['product_image'] ?>">
                                 <p class="nama"><?= substr($p['product_name'], 0, 30) ?></p>
                                 <p class="harga">Rp. <?= number_format($p['product_price']) ?></p>
 
